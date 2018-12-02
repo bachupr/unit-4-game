@@ -32,14 +32,14 @@ $( document ).ready(function(){
         } 
   //adds the wins to the userTotal
   function win(){
-  alert("You won!");
+  alert("You won the Game!");
     wins++; 
     $('#numberWins').text(wins);
     reset();
   }
   //addes the losses to the userTotal
   function loser(){
-  alert ("You lose!");
+  alert ("You lost the Game!");
     losses++;
     $('#numberLosses').text(losses);
     reset()

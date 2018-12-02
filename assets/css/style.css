@@ -39,6 +39,7 @@ ul {
 /* Specfic Elements*/
 div.header, div.gems{
 	background-color: #e0e0eb;
+	width: 32%;
 }
 div.header, div.instructions{
 	width: 52%;
@@ -59,19 +60,24 @@ div.header, div.instructions{
 	clear: both;
 }
 .gemImage{
-	height: 60px;
+	height: 70px;
+	width: 70px;
 	margin: 10px;
 }
 /* IDs */
 #blue{
 	color: #3092c7;
+	width: 22%;
 }
 #green{
 	color: #00aa59;
+	
 }
 #red{
 	color: #ec4b5f;
+	
 }
 #yellow{
 	color: #ffc225;
+	
 }
